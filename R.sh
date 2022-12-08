@@ -1,0 +1,7 @@
+
+
+
+redirect=<<< @ >>>"
+
+
+echo $redirect
