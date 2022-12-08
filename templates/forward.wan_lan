@@ -1,0 +1,6 @@
+config redirect
+        option src              wan
+        option src_dport        80
+        option dest             lan
+        option dest_port        80
+        option proto            tcp
