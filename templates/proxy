@@ -1,0 +1,16 @@
+redirect
+        option src              lan
+        option proto            tcp
+        option src_ip           !192.168.1.100
+        option src_dport        80
+        option dest_ip          192.168.1.100
+        option dest_port        3128
+        option target           DNAT
+
+config redirect
+        option dest             lan
+        option proto            tcp
+        option src_dip          192.168.1.1
+        option dest_ip          192.168.1.100
+        option dest_port        3128
+        option target           SNAT
